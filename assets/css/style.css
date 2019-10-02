@@ -1,0 +1,60 @@
+body{
+	background-image: url("../images/background.png");
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 35%
+}
+div{
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+
+/* Header & Instructions */
+
+div.main-header, div.game-instructions{
+	width: 32.75%;
+}
+
+/* Containers */
+.numberToGet-container, .winsLosses-container{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userScore-container{
+	width: 15%;
+	height: 60px;
+}
+.crystals-container{
+	width: 32.75%;
+	clear: both;
+}
+
+/* Crystals */
+
+.crystalImage{
+	height: 60px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#blue{
+	color: blue;
+}
+#green{
+	color: green;
+}
+#red{
+	color: red;
+}
+#yellow{
+	color: yellow;
+}
