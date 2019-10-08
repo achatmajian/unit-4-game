@@ -77,7 +77,7 @@ $("#img1").click (function() {
     if (totalScore == randomNumberToGet) {
         win ();
     }
-    else (totalScore > randomNumberToGet) 
+    else if (totalScore > randomNumberToGet) 
         lose ();
     }
 );
@@ -92,7 +92,7 @@ $("#img2").click (function() {
     if (totalScore == randomNumberToGet) {
         win ();
     }
-    else (totalScore > randomNumberToGet) 
+    else if (totalScore > randomNumberToGet) 
         lose ();
     }
 );
@@ -107,7 +107,7 @@ $("#img3").click (function() {
     if (totalScore == randomNumberToGet) {
         win ();
     }
-    else (totalScore > randomNumberToGet) 
+    else if (totalScore > randomNumberToGet) 
         lose ();
     }
 );
@@ -122,7 +122,7 @@ $("#img4").click (function() {
     if (totalScore == randomNumberToGet) {
         win ();
     }
-    else (totalScore > randomNumberToGet) 
+    else if (totalScore > randomNumberToGet) 
         lose ();
     }
 );
